@@ -1,0 +1,515 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar */
+.nav {
+    margin: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.nav-brand {
+    cursor: pointer;
+    margin-right: 18px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    position: absolute;
+    transform: translateX(-95%);
+    top: -10px;
+}
+
+.nav-link {
+    padding: 20px;
+}
+
+.nav-link a {
+    text-decoration: none;
+    color: #585858;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.nav-link a:hover {
+    color: rgb(139, 139, 139);
+}
+
+.btn-search {
+    cursor: pointer;
+    width: 14px;
+    height: 14px;
+    background-color: transparent;
+    border: none;
+    color: #585858;
+}
+
+.btn-search:hover {
+    color: rgb(139, 139, 139);
+}
+
+.btn-signIn {
+    margin: 0 16px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    color: #585858;
+    background-color: transparent;
+    border: none;
+    width: 99px;
+    height: 48px;
+    border-radius: 4px;
+}
+
+.btn-signIn:hover {
+    background-color: rgb(243, 243, 243);
+    color: #585858;
+}
+
+.btn-signUp {
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #FD665E;
+    border: none;
+    width: 99px;
+    height: 48px;
+    border-radius: 4px;
+}
+
+.btn-signUp:hover {
+    background-color: #fa544b;
+}
+
+/* Navbar End */
+
+/* Content-Section */
+.container {
+    margin: auto 140px;
+}
+
+.content-section {
+    margin-top: 50px;
+}
+
+.title-section {
+    width: 100%;
+}
+
+.title-section h1 {
+    width: 870px;
+    font-weight: bold;
+    font-size: 112px;
+    line-height: 100%;
+    color: #000000;
+    font-family: 'Playfair Display', serif;
+}
+
+.title-section h1 b {
+    font-family: 'Playfair Display', serif;
+}
+
+.hero-section {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+}
+
+.hero-title {
+    width: 50%;
+    float: left;
+    margin-right: 55px;
+}
+
+.hero-title h4 {
+    width: 300px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    color: #000000;
+}
+
+.hero-title .btn-consultations {
+    margin-top: 48px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #FD665E;
+    border: none;
+    width: 179px;
+    height: 56px;
+    border-radius: 4px;
+}
+
+.hero-title .btn-consultations:hover {
+    background-color: #fa544b;
+}
+
+.hero-image {
+    float: right;
+}
+
+.hero-image img {
+    width: 700px;
+}
+
+/* Content Section End */
+
+/* Pictures Section */
+.pictures-section {
+    width: 100%;
+    margin-top: 75px;
+    justify-content: space-between;
+}
+
+.pictures-title {
+    display: flex;
+    padding-left: 350px;
+}
+
+.pictures-title h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 124%;
+    font-family: 'Playfair Display', serif;
+}
+
+.pictures-navigation {
+    padding-top: 85px;
+    margin-left: auto;
+}
+
+.pictures-navigation a {
+    text-decoration: none;
+}
+
+.fa-arrow-left {
+    padding-right: 20px;
+    color: #473534;
+}
+
+.fa-arrow-left:hover {
+    color: #575655;
+}
+
+.fa-arrow-right {
+    color: #FD665E;
+}
+
+.fa-arrow-right:hover {
+    color: #ff9590;
+}
+
+.pictures-box {
+    width: 112%;
+    margin-top: 65px;
+    display: flex;
+    overflow: hidden;
+}
+
+.pictures img {
+    width: 250px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+/* Pictures Section End */
+/* Feature Section */
+
+.feature-section {
+    margin-top: 75px;
+}
+
+.feature-title h3 {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 124%;
+}
+
+.feature-content {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+}
+
+.feature-image {
+    float: left;
+    margin-right: 130px;
+}
+
+.guaranteed {
+    margin-top: 50px;
+    display: flex;
+}
+
+.guaranteed-image {
+    margin-right: 25px;
+    padding-top: 5px;
+}
+
+.guaranteed-text h5 {
+    padding-bottom: 5px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 160%;
+}
+
+.guaranteed-text p {
+    width: 300px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    padding-bottom: 38px;
+}
+
+.additional {
+    display: flex;
+}
+
+.additional-image {
+    margin-right: 30px;
+    padding-top: 5px;
+}
+
+.additional-text h5 {
+    padding-bottom: 5px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 160%;
+}
+
+.additional-text p {
+    width: 300px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    padding-bottom: 38px;
+}
+
+.escort {
+    display: flex;
+}
+
+.escort-image {
+    margin-right: 30px;
+    padding-top: 5px;
+}
+
+.escort-text h5 {
+    padding-bottom: 5px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 160%;
+}
+
+.escort-text p {
+    width: 300px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+}
+
+.feature-text .btn-consultations {
+    margin-top: 60px;
+    margin-left: 65px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #fff;
+    background-color: #FD665E;
+    border: none;
+    width: 204px;
+    height: 56px;
+    border-radius: 4px;
+}
+
+.feature-text .btn-consultations:hover {
+    background-color: #fa544b;
+}
+
+/* Content Section End */
+/* Testimonials Section */
+
+.testimonials-section {
+    margin-top: 75px;
+}
+
+.testimonials-title h3 {
+    width: 375px;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 124%;
+}
+
+.testimonials-content {
+    display: flex;
+    margin-top: 40px;
+}
+
+.testimonials-image {
+    margin-left: 200px;
+}
+
+.testimonials-text {
+    width: 765px;
+    margin-left: 52px;
+}
+
+.testimonials-text h5 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 160%;
+}
+
+.testimonials-text p {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 160%;
+}
+
+.testimonials-text a {
+    position: relative;
+    float: right;
+    bottom: 23px;
+}
+
+/* Testimonials Section End */
+/* Consultations Section */
+
+.consultations-section {
+    display: flex;
+    margin-top: 75px;
+}
+
+.consultations-image {
+    margin-right: 110px;
+}
+
+.consultations-text {
+    padding-top: 250px;
+    width: 520px;
+}
+
+.consultations-text h3 {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 124%;
+}
+
+.consultations-text b {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 124%;
+    color: #FD665E;
+}
+
+.consultations-text .btn-consultations {
+    margin-top: 60px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #fff;
+    background-color: #FD665E;
+    border: none;
+    width: 204px;
+    height: 56px;
+    border-radius: 4px;
+}
+
+.consultations-text .btn-consultations:hover {
+    background-color: #fa544b;
+}
+
+/* Consultations Section End */
+/* Our Partners Section */
+
+.ourpartners-section {
+    margin-top: 75px;
+}
+
+.ourpartners-title h3 {
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 124%;
+}
+
+.ourpartners-image {
+    margin-top: 25px;
+}
+
+.ourpartners {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Our Partners Section End */
+/* Footer Section */
+
+.footer-section {
+    margin-top: 105px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.footer-nav-link {
+    padding-right: 48px;
+}
+
+.footer-nav-link a {
+    text-decoration: none;
+    color: #585858;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.footer-nav-link a:hover {
+    color: rgb(139, 139, 139);
+}
+
+.footer-brand {
+    cursor: pointer;
+}
+
+/* Footer Section End */
